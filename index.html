@@ -28,7 +28,7 @@
             <ul>
               <li><a href="#about">どんなアプリ？</a></li>
               <li><a href="#how">使い方</a></li>
-              <li><a href="#useflu">便利な機能</a></li>
+              <li><a href="#useful">便利な機能</a></li>
               <li class="header_li_download"><a href="#download">登録方法</a></li>
             </ul>
           </nav>
@@ -37,7 +37,7 @@
     </header>
 
     <main>
-      <section class="top_wrapper">
+      <section class="top_wrapper" id="top">
         <div class="top_inner">
           <div class="top_left">
             <p class="top_ttl">毎日の献立おまかせアプリ</p>
@@ -53,7 +53,7 @@
         </div>
       </section><!--TOPsection-->
 
-      <section class="about_wrapper">
+      <section class="about_wrapper" id="about">
         <div class="about_inner inner">
           <h3 class="ttl">どんなアプリ？</h3>
           <div class="about_1">
@@ -76,13 +76,13 @@
         </div>
       </section><!--ABOUTsection-->
 
-      <section class="how_wrapper">
+      <section class="how_wrapper" id="how">
         <div class="how_inner inner">
           <h3 class="ttl">使い方</h3>
           <div class="how_1">
             <div class="how_1_left">
-              <p><strong>レシート</strong><br>
-              or<br>
+              <p><strong>レシート</strong><br class="how_sp">
+              or<br class="how_sp">
               買って来た<strong>食材</strong> の<br>
               <strong>写真を撮る！</strong></p>
             </div>
@@ -102,7 +102,7 @@
         </div>
       </section><!--HOWsection-->
 
-      <section class="useful_wrapper">
+      <section class="useful_wrapper" id="useful">
         <div class="useful_inner inner">
           <h3 class="ttl">便利な機能</h3>
           <div class="useful_items">
@@ -153,18 +153,18 @@
         </div> 
       </section><!--USEFULsection-->
 
-      <section class="download_wrapper">
+      <section class="download_wrapper" id="download">
         <div class="download_inner inner">
           <h3 class="ttl">登録方法</h3>
           <p>アプリの<strong>無料</strong>ダウンロードはこちらから</p>
           <div class="download_item">
             <div class="download_apple">
-              <a href="">
+              <a href="https://www.apple.com/jp/app-store/">
                 <img src="img/apple.svg" alt="アップルストア">
               </a>
             </div>
             <div class="download_google">
-              <a href="">
+              <a href="https://play.google.com/store/apps?hl=ja&gl=US">
                 <img src="img/google-play.png" alt="!グーグルプレイ">
               </a>
             </div>
@@ -193,9 +193,11 @@
           <small>️©️2022 kondatenaani</small>
         </div>
       </footer>
+      <a href="#download">
       <div class="download_banner">
         <p>登録方法</p>
       </div>
+      </a>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
